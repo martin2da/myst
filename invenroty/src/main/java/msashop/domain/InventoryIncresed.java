@@ -12,6 +12,7 @@ import msashop.infra.AbstractEvent;
 public class InventoryIncresed extends AbstractEvent {
 
     private Long id;
+    private String stock;
 
     public InventoryIncresed(Inventory aggregate) {
         super(aggregate);
